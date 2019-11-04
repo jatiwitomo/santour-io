@@ -1,0 +1,669 @@
+*{
+    margin  : 0 ;
+    padding : 0 ;
+    box-sizing : border-box;
+}
+
+body{
+    font-family : "Lato", sans-serif;
+}
+
+textarea{
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: +99999999;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+}
+
+.navbar h1{
+    font-weight: 700;
+    font-size: 21px;
+    color:#8B4367;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo h1{
+    margin: 10px 10px 10px 0;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+a{
+    margin:8px;
+    padding: 8px;
+    text-decoration: none;
+    color: #01024E;
+}
+
+#su{
+    color: #FF6464;
+}
+
+.bagianAwal{
+    width: 100%;
+    height: 628px;
+    background-image: url('../images/arch-bridge-clouds-814499.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.isiAwal{
+    width: 80%;
+    height: 628px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.isiAwal h1{
+    font-size: 87px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.isiAwal button{
+    margin-top: 20px;;
+    width: 185px;
+    height: 51px;
+    border-radius: 20px;
+    border          : 1px solid white;
+    background-color: rgba(214, 214, 214, 20%);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bagianKedua{
+    width: 100%;
+    height: 710px;
+}
+
+.isiKedua{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 710px;
+    margin: auto;
+}
+
+.titleKedua{
+    margin: 40px;
+    padding: 10px;
+}
+
+.galleryKedua{
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleKedua h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #01024E;
+    text-align: center;
+
+}
+
+.cardContainer{
+    width: 352px;
+    height: 483px;
+    margin: 10px;
+}
+.imageContainer{
+    height: 414px;
+
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.descContainer{
+    height: 69px;
+    background-color: white
+}
+.isiDesc{
+    margin-left: 10px;
+    margin-right: 10px;;
+    text-align: center;
+    padding: 10px;
+}
+.isiDesc h1{
+    color: #01024E
+}
+.isiDesc p{
+    color: rgb(155, 155, 155);
+}
+
+.bagianKetiga{
+    width: 100%;
+    height: 380px;
+}
+
+.isiKetiga{
+    width: 80%;
+    height: 380px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.titleKetiga{
+    margin: 40px 40px 40px 40px;
+    padding: 10px;
+}
+.titleKetiga h1{
+    text-align: center;
+    color: #01024E;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.galleryKetiga{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconContainer{
+    width: 168px;
+    height: 203px;
+    
+}
+.iconContainerIcon{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.descIcon h1{
+    font-style: 28px;
+    font-weight: 700;
+    color: #01024E;
+    text-align: center;
+    margin: 10px;
+}
+
+.bagianKeempat{
+    width: 100%;
+    height: 787px;
+    background-image: url('/images/Group 23.png');
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.isiKeempat{
+    width: 80%;
+    height: 787px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.titleKeempat{
+    margin: 60px 40px 40px 40px;
+    padding: 50px;
+}
+.titleKeempat h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #01024E;
+    text-align: center;
+}
+.galleryKeempat{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardsTestimonials{
+    width: 444px;
+    height: 180px;
+    margin: 20px;
+
+}
+.photoForTesti{
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 20px;
+    z-index: +1;
+}
+.photoForTesti img{
+    width: 100%;
+    height: 100%;
+
+}
+.testimonialsIsi{
+    width: 444px;
+    height: 141px;
+    background-color: rgba(255, 255, 255, 57%);
+    position: relative;
+    top:20%;
+    display: flex;
+}
+.emptyForTesti{
+    
+    height: 141px;
+    flex: 1;
+}
+.textTesti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    height: 141px;
+}
+.textTesti p{
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    color: #01024E;
+}
+.textTesti h1{
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #01024E;
+}
+
+.bagianKelima{
+    width: 100%;
+    height: 886px;
+}
+
+.isiKelima{
+    width: 80%;
+    height: 886px;
+    margin: auto;
+}
+
+.titleKelima{
+    margin: 40px;
+}
+
+.titleKelima h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #01024E;
+    text-align: center;
+}
+
+.galleryKelima{
+    display: flex;
+    justify-content: center;
+
+}
+
+.galleryKelima form h1{
+    font-size: 21px;
+    color: #01024E;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.galleryKelima form input{
+    width: 536px;
+    height: 62px;
+    border-radius: 5px;
+    border: 0 solid #9e9e9e;
+    outline: #b4b4b4;
+    background-color: #54386413;
+    margin: 10px;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;
+    
+}
+.galleryKelima form textarea{
+    width: 536px;
+    height: 338px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0 solid #9e9e9e;
+    background-color: #54386413;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;
+}
+::placeholder{
+    color: #c3c3c3;
+}
+input[type=text]:focus, input[type=password]:focus , textarea:focus{
+    box-shadow: 0 0 9px rgba(84, 56, 100, 1);
+    border: 1px solid rgba(84, 56, 100, 1);
+}
+
+.galleryKelima button{
+    margin: 10px;
+    width: 535px;
+    height: 62px;
+    background-color: #FF6464;
+    border-radius: 5px;
+    border: 0 solid;
+    font-size: 21px;
+    font-family: 'Lato';
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #01024E;
+}
+
+footer section{
+    width: 80%;
+    height: 320px;
+    display: flex;
+    margin: auto;
+}
+
+.bag1{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bag2, .bag3{
+    flex: 2;
+}
+
+section .bag1 h1{
+    font-size: 21px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+section .bag2 h1{
+    margin: 13px;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 40px;
+
+}
+section .bag3 h1{
+    font-size: 21px;
+    color: white;
+
+}
+
+.bag1 p{
+    font-size: 16px;
+    color: #BEBEBE;
+    line-height: 1.5;
+}
+.bag2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bag2 ul li{
+    list-style: none;
+    
+    
+}
+
+.bag2 a{
+    font-size: 16px;
+    color: #BEBEBE;
+    line-height: 1.5;
+}
+
+.bag3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.boxLogIn{
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.containerLogIn{
+    width: 80%;
+    height: 609px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    overflow-y: hidden;
+}
+.containerLogIn a{
+    margin: 0;
+    padding: 0;
+}
+.isiLogIn{
+    flex: 1;
+}
+
+.emptySpaceLogIn{
+    width: 292px;
+    height: 609px;
+}
+.isiLogIn h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #01024E;
+}
+
+.LogIn{
+    margin-top: 94px;
+}
+.LogIn form h2{
+    font-size: 21px;
+    color: #01024E;
+    font-weight: 500;
+    margin: 10px 10px 10px 0;
+}
+.LogIn form input{
+    width: 352px;
+    height: 62px;
+    border-radius: 5px;
+    border: 1px solid #8B4367;
+    outline: #8B4367;
+    background-color: #54386413;
+    margin: 10px 10px 10px 0;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;   
+}
+
+.LogIn button{
+    margin: 10px 10px 10px 0;
+    width: 352px;
+    height: 62px;
+    background-color: #01024E;
+    border-radius: 5px;
+    border: 0 solid;
+    font-size: 21px;
+    font-family: 'Lato';
+    color: white;
+    cursor: pointer;
+}
+.boxSignUp{
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.containerSignUp{
+    width: 80%;
+    height: 609px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    overflow-y: hidden;
+}
+.containerSignUp a{
+    margin: 0;
+    padding: 0;
+}
+.emptySpaceSignUp{
+    width: 65px;
+    height: 609px;
+}
+.isiSignUp{
+    display: flex;
+    flex-direction: column;
+}
+.isiSignUp h1{
+    font-size: 28px;
+    color: #01024E;
+    font-weight: 700;
+}
+.SignUp{
+    width: 995px;
+    height: 380px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.su1, .su2, .su3{
+    flex: 1;
+}
+.su1 h1,.su2 h1, .su3 h1{
+    font-size: 21px;
+    color: #01024E;
+    font-weight: 500;
+    margin: 10px 10px 10px 0;
+}
+
+.su1 form input{
+    width: 260px;
+    height: 62px;
+    border-radius: 5px;
+    border: 1px solid #8B4367;
+    outline: #8B4367;
+    background-color: #54386413;
+    margin: 10px 10px 10px 0;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;   
+}
+
+.su2 form input{
+    width: 260px;
+    height: 62px;
+    border-radius: 5px;
+    border: 1px solid #8B4367;
+    outline: #8B4367;
+    background-color: #54386413;
+    margin: 10px 10px 10px 0;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;   
+}
+
+.su3 form input{
+    width: 260px;
+    height: 62px;
+    border-radius: 5px;
+    border: 1px solid #8B4367;
+    outline: #8B4367;
+    background-color: #54386413;
+    margin: 10px 10px 10px 0;
+    font-size: 21px;
+    padding: 10px;
+    color: #543864e3;   
+}
+.containerRadio{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 21px;
+    color: #01024E;
+}
+
+.containerRadio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+
+.containerRadio input:checked ~ .checkmark {
+    background-color: #01024E;
+}
+
+.containerRadio input:checked ~ .checkmark:after {
+    display: block;
+}
+.buttonSu{
+    flex: 1;
+    justify-content:  center;
+}
+.isiSignUp button{
+    margin: 20px 10px 10px 0;
+    width: 93%;
+    height: 62px;
+    background-color: #01024E;
+    border-radius: 5px;
+    border: 0 solid;
+    font-size: 21px;
+    font-family: 'Lato';
+    color: white;
+    cursor: pointer;
+    
+}
