@@ -26,20 +26,20 @@
                             <input type="password" name="password" placeholder="Enter Your Password">
                             <h1>Confirm Password</h1>
                             <input type="password" name="password" placeholder="Confirm Paswword"> 
-                        </form>
+                        <!-- </form> -->
                     </div>
                     <div class="su2">
-                        <form action="POST">
+                        <!-- <form action="POST"> -->
                             <h1>Full Name</h1>
                             <input type="text" name="name" placeholder="Enter Your Full Name">
                             <h1>Place of Birth</h1>
                             <input type="text" name="tempatLahir" placeholder="Enter Your Place of Birth">
                             <h1>Date of Birth</h1>
                             <input type="date" name="tanggalLahir">
-                        </form>
+                        <!-- </form> -->
                     </div>
                     <div class="su3">
-                        <form action="POST">
+                        <!-- <form action="POST"> -->
                             <h1>Gender</h1>
                             <label class="containerRadio">
                                 <input type="radio" name="gender" value="Male"><span>Male</span>
@@ -53,7 +53,7 @@
                             <input type="text" name="address" placeholder="Enter Your Address">
                             <h1>Phone Number</h1>
                             <input type="text" name="phoneNumber" placeholder="Enter Your Phone Number" id="">
-                        </form>
+                        <!-- </form> -->
                        
                     </div>
                     
@@ -61,6 +61,7 @@
                 <div class="buttonSu">
                     <button>Sign Up</button>
                 </div>
+            </form>
             </div>
         </div>
     </div>
